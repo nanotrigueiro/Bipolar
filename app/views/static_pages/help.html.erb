@@ -1,2 +1,16 @@
-<h1>StaticPages#help</h1>
-<p>Find me in app/views/static_pages/help.html.erb</p>
+<% provide(:title, "Help") %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:title) %> | BiPOLAR PROJECT</title>
+  </head>
+  <body>
+    <h1>Help</h1>
+    <p>
+      Get help on the BiPOLAR PROJECT at the
+      <a href="https://bi-polar.herokuapp.com/static_pages/help"> help 
+      section</a>.
+      Or send an email to: contact@bipolarproject.com 
+    </p>
+  </body>
+</html>
