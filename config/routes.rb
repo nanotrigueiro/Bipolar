@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   
 
+  resources :monitorings
   get 'sessions/new'
 
   resources :users
