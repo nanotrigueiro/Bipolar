@@ -69,6 +69,6 @@ class MonitoringsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def monitoring_params
-      params.fetch(:monitoring, {})
+      params.require(:monitoring).permit(:local, :description)
     end
 end

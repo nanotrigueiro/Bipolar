@@ -1,0 +1,8 @@
+<ul>
+    <% @results.each do |result| %>
+        <li>
+            <p><%= link_to result.title, result.uri, target: 'blank' %></p>
+            <p><%= simple_format result.content %></p>
+        </li>
+    <% end %>
+</ul>
