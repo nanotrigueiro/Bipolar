@@ -1,13 +1,21 @@
 body {
   background-image: url(http://versao.portaltrivia.com.br/MeLiJobs/BiPolar/rails.png);
   background-color: #fff;
-  color: #333;
+  color: #fff;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
 
-p, ol, ul, td {
+p, ol, ul {
+  color: #fff;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+td {
+  color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
@@ -23,7 +31,7 @@ a {
   color: #000;
 
   &:visited {
-    color: #666;
+    color: #fff;
   }
 
   &:hover {
